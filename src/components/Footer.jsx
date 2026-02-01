@@ -9,7 +9,7 @@ export default function Footer() {
         {/* Brand */}
         <div>
           <h3 className="text-xl tracking-[0.3em] uppercase text-white mb-4">
-            Saree<span className="text-[#c9a24d]">Aura</span>
+            Saree<span className="text-[#c9a24d]"> Studio</span>
           </h3>
           <p className="text-sm leading-relaxed text-gray-400">
             Celebrating timeless Indian craftsmanship through premium sarees

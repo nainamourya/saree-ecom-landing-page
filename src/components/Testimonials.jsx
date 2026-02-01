@@ -71,17 +71,19 @@ export default function Testimonials() {
 
   return (
     <section className="w-full bg-[#faf7f4] overflow-hidden">
-      <div className="grid lg:grid-cols-2 min-h-[650px]">
+    <div className="grid lg:grid-cols-[40%_60%] min-h-[650px]">
         
         {/* LEFT – FULL IMAGE */}
-        <div className="relative h-[380px] lg:h-auto">
-          <img
-            src="https://i.pinimg.com/736x/e1/0c/b7/e10cb7f8cd102fc9aea70c58287191de.jpg"
-            alt="Customer wearing saree"
-            className="absolute inset-0 w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-black/30" />
-        </div>
+        <div className="relative w-full h-[340px] lg:h-full overflow-hidden">
+  <img
+    src="https://i.pinimg.com/1200x/7a/6d/d8/7a6dd85cf2f716eca10e506ae4641f53.jpg"
+    alt="Customer wearing saree"
+    className="absolute inset-0 w-full h-full object-cover object-center"
+  />
+
+  {/* Subtle fade for balance */}
+  <div className="absolute inset-0 bg-gradient-to-r from-black/20 to-transparent" />
+</div>
 
         {/* RIGHT – TESTIMONIALS */}
         <div className="flex flex-col justify-center py-24 px-6 lg:px-16">

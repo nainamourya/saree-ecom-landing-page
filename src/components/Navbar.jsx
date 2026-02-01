@@ -79,7 +79,7 @@ export default function Navbar() {
                 onMouseEnter={() => setShowMenu(true)}
                 onMouseLeave={() => setShowMenu(false)}
               >
-                <button className="flex items-center gap-1 hover:text-[#7a1f2a] transition">
+                <button className="flex items-center gap-1 hover:text-[#7a1f2a] transition text-sm uppercase ">
                   Collections
                   <ChevronDown size={16} />
                 </button>

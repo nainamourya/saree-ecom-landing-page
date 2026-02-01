@@ -8,8 +8,8 @@ export default function Hero() {
   const typeRef = useRef(null);
 
   const images = [
-    "https://images.unsplash.com/photo-1618354691438-25bc04584c23?q=80&w=1200",
-    "https://kasthuribaicompany.com/wp-content/uploads/2021/04/1.jpg",
+    "https://png.pngtree.com/png-clipart/20250525/original/pngtree-red-banarasi-art-silk-saree-png-image_21077149.png",
+    "https://images.pexels.com/photos/27575174/pexels-photo-27575174.jpeg",
     "https://m.media-amazon.com/images/I/91p3pm3vSQL._AC_UY1100_.jpg",
   ];
 

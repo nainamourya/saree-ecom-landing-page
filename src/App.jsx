@@ -8,6 +8,7 @@ import InfiniteSareeSlider from './components/InfiniteSareeSlider'
 import About from './components/About'
 import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
+import FAQ from './components/FAQ'
 
 function App() {
  
@@ -20,6 +21,7 @@ function App() {
      <Collection/>
      <InfiniteSareeSlider/>
      <Testimonials/>
+     <FAQ/>
      <Footer/>
     </>
   )
