@@ -8,9 +8,9 @@ export default function Hero() {
   const typeRef = useRef(null);
 
   const images = [
-    "https://png.pngtree.com/png-clipart/20250525/original/pngtree-red-banarasi-art-silk-saree-png-image_21077149.png",
-    "https://images.pexels.com/photos/27575174/pexels-photo-27575174.jpeg",
-    "https://m.media-amazon.com/images/I/91p3pm3vSQL._AC_UY1100_.jpg",
+    "img/demo2.png",
+    "img/demo7.png",
+    "img/demo5.png",
   ];
 
   const [index, setIndex] = useState(0);
@@ -28,7 +28,7 @@ export default function Hero() {
     const ctx = gsap.context(() => {
       gsap.from(".hero-text", {
         y: 60,
-        opacity: 0,
+        // opacity: 0,
         duration: 1.2,
         stagger: 0.2,
         ease: "power4.out",
@@ -140,12 +140,12 @@ export default function Hero() {
         </div>
 
         {/* Right Image */}
-        <div className="relative hero-text flex justify-center items-center h-full">
+        <div className="relative hero-text flex justify-center items-center w-full h-full mt-10">
           <img
             ref={imgRef}
             src={images[index]}
             alt="Luxury Saree"
-            className="w-full max-w-md h-[70vh] object-cover rounded-3xl"
+            className=" max-w-md  object-cover w-full "
           />
         </div>
       </div>
@@ -154,7 +154,7 @@ export default function Hero() {
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20">
         <div className="flex items-center gap-6 px-10 py-5 bg-white/70 backdrop-blur-md rounded-full shadow-lg">
           <img
-            src="https://images.unsplash.com/photo-1618354691438-25bc04584c23?q=80&w=200"
+            src="img/demo7.png"
             alt="Fabric texture"
             className="w-10 h-10 rounded-full object-cover opacity-90"
           />

@@ -108,9 +108,9 @@ export default function Collection() {
                 {item.subtitle}
               </p>
 
-              <span className="inline-block mt-4 text-sm uppercase tracking-widest border-b border-white/60 pb-1">
-                View Collection
-              </span>
+              <span className="inline-block mt-4 text-sm uppercase tracking-widest border-b border-white/60 pb-1 px-4 PY-4 rounded transition-all duration-300 hover:bg-[#7a1f2a] hover:border-transparent">
+  View Collection
+</span>
             </div>
           </div>
         ))}
