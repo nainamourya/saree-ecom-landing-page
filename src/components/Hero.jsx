@@ -140,12 +140,12 @@ export default function Hero() {
         </div>
 
         {/* Right Image */}
-        <div className="relative hero-text flex justify-center items-center w-full h-full mt-10">
+        <div className="relative hero-text flex justify-center items-center w-full h-full pt-10">
           <img
             ref={imgRef}
             src={images[index]}
             alt="Luxury Saree"
-            className=" max-w-md  object-cover w-full "
+            className=" max-w-md object-cover w-full "
           />
         </div>
       </div>
